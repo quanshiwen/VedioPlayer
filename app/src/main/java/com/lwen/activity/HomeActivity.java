@@ -49,9 +49,9 @@ public class HomeActivity extends BaseActivity implements ViewGroup.OnClickListe
 
         initView();
         homeFragment = new HomeFragment();
-        messageFragment = new MessageFragment();
-        mineFragment = new MineFragment();
-        commonFragment = new CommonFragment();
+       // messageFragment = new MessageFragment();
+       // mineFragment = new MineFragment();
+      //  commonFragment = new CommonFragment();
 
         fragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
